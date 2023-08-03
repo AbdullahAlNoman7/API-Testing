@@ -1,0 +1,6 @@
+newman run Task.postman_collection.json
+
+newman run Task.postman_collection.json -e bangla_puzzle.postman_environment.json
+
+newman run Task.postman_collection.json -e bangla_puzzle.postman_environment.json -r cli,html
+newman run Task.postman_collection.json -e bangla_puzzle.postman_environment.json -r cli,htmlextra
